@@ -21,3 +21,4 @@
     * There can be two type of request 1) Blocking request (sync) 2) Non-blocking request (async).
     * In case of Non-blocking opeation Event loop process non-blocking request normally.
     * But in case of blocking request a thread assigned from thread pool to complete the request. 
+    * By default threadpool size is 4 , we can configure threadpool size max to cpu core size.

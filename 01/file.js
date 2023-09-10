@@ -1,5 +1,8 @@
 const fs = require("fs");
+const os = require("os");
 
+
+console.log(os.cpus().length)
 // This was sync call - This is blocking call
 // fs.writeFileSync('./test.txt' , 'Hey this is first text in files')
 
