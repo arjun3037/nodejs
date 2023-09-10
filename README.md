@@ -12,5 +12,12 @@
 
 # fs module in Node
 
-* fs module used to interact with file, if we need to create the file and read the data.
-* 
+* fs module used to interact with file, if we need to create the file and read the file or any other file operation
+* Its have two type of method one is sync type and other one is async type.
+
+# How NodeJs works
+    * When Node server receive a request from client , then it will push all the requests in Event Queue.
+    * after this all request goes to Event loop , so Event loop always listen to Event queue . When Event queue gets request it will pickup the requesy in FIFO manner
+    * There can be two type of request 1) Blocking request (sync) 2) Non-blocking request (async).
+    * In case of Non-blocking opeation Event loop process non-blocking request normally.
+    * But in case of blocking request a thread assigned from thread pool to complete the request. 
