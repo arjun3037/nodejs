@@ -22,3 +22,5 @@
     * In case of Non-blocking opeation Event loop process non-blocking request normally.
     * But in case of blocking request a thread assigned from thread pool to complete the request. 
     * By default threadpool size is 4 , we can configure threadpool size max to cpu core size.
+# vesioning in Node JS
+    * suppose we have express version in package.json 4.18.2 , In this version 2 is minor version which is optional to  update , 18 recommended bug fix/major change , we should update the version, 4 is major release if it changes from 4 to 5 then it will be major changes.We hould not update it because it might break existing functionality.
